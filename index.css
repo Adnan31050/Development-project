@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-text-bold {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    font-size: 15px;
+    font-weight: 460;
+}
+
+.navbar-nav button {
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4169E1;
+    color: white;
+}
+
+.custom-img-size img {
+    width: 70%;
+    height: 300px;
+}
+
+.custom-text-size h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.custom-text-size p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.custom-text-size button {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F9812A;
+    color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .custom-text-size {
+        text-align: center;
+    }
+
+    .custom-text-size h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .custom-text-size p {
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .custom-img-size {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .custom-img-size img {
+
+        margin-top: -20px;
+    }
+}
+
+.custom-client-bg {
+    background-color: #4e6dcc;
+    padding-bottom: 50px;
+}
+
+.custom-Client-icons i {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    right: 20px;
+}
+
+.custom-Client-icons h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.custom-Client-icons p {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 45px;
+    color: white;
+
+
+}
+
+.custom-serive-postion{
+    position: relative;
+    top: -70px;
+    background-color: whitesmoke;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.custom-service {
+    text-align: center;
+}
+
+.custom-service img{
+    width: 100px;
+    border-radius: 7px;
+}
+
+.custom-service h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.custom-service p{
+    font-size: 10px;
+    
+}
